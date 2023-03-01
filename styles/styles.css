@@ -100,6 +100,9 @@ main {
   height: 68px;
   max-height: 68px;
   background-color: transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
 }
 
 .nav {
@@ -151,8 +154,72 @@ main {
   z-index: 100;
 }
 
+.hero {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url("../../src/images/KualaLumpur_city_night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero__title {
+  text-align: center;
+}
+.hero__title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 12rem;
+  color: #FFFFFF;
+}
+.hero__title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+.hero__search {
+  width: 420px;
+  height: 35px;
+  border-radius: 6px;
+  opacity: 80%;
+  margin-top: 36px;
+  position: relative;
+}
+.hero__search--input {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+}
+.hero__search--image {
+  position: absolute;
+  right: 11px;
+  top: calc(50% - 7.1px);
+}
+.hero__social {
+  position: absolute;
+  bottom: 72px;
+}
+.hero__social--icon {
+  margin-right: 20px;
+}
+
+hero__search--input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #9C9C9C;
+}
+
 .footer {
   width: 100vw;
+  max-width: 100vw;
   height: 80px;
   max-height: 80px;
   display: flex;
