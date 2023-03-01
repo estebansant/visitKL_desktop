@@ -1,0 +1,20 @@
+{
+  "name": "visitkl_desktop",
+  "version": "1.0.0",
+  "description": "This is a project to develop the desktop version of VisitKL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebansant/visitKL_desktop.git"
+  },
+  "keywords": [],
+  "author": "Esteban Santiago <estebansant30@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebansant/visitKL_desktop/issues"
+  },
+  "homepage": "https://github.com/estebansant/visitKL_desktop#readme"
+}
