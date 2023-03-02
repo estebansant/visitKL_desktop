@@ -54,6 +54,11 @@ $bottom-shadow: 0px 4.01667px 4.01667px rgba(0, 0, 0, 0.5);
 }
 @font-face{
     font-family: 'Eina03';
+    src: url('../../fonts/Eina03-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Eina03';
     src: url('../../fonts/Eina03-SemiBold.ttf') format('truetype');
     font-weight: 600;
 }
