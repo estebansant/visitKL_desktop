@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Montserrat:wght@600;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/website_parts/whats-on.css">
-    <title>What's On | VisitKL</title>
+    <link rel="stylesheet" href="../styles/website_parts/gallery_form.css">
+    <title>Gallery Form | VisitKL</title>
 </head>
 <body>
     <header class="header">
@@ -34,19 +34,50 @@
             </div>
         </nav>
     </header>
-
     <main>
         <section class="intro">
-            <div class="intro__head">
-                <img class="intro__head--title" src="../src/logos/whats_on_title2.png" alt="whats on title"/>
+            <div class="intro__buttons">
+                <button class="intro__buttons--submit">Submit</button>
+                <img class="intro__buttons--reload" src="../src/icons/reload_cherry-form.svg" alt="reload" />
             </div>
-            <p class="intro__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie maximus tellus ut laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Nullam lobortis dui sed ligula auctor laoreet. Morbi ullamcorper purus at mauris rutrum vehicula.
-            </p>
+            <div class="intro__head">
+                <img class="intro__head--title" src="../src/logos/gallery_form_title.png" alt="gallery form title"/>
+                <p class="intro__head--text">
+                    Memories are made to be remembered. <img src="../src/icons/like_bubble-cherry.svg" alt="like"/> <br/>
+                    Today’s special moments are tomorrow’s priceless moment.<br/><br/>
+    
+                    Share yours with us.<br/>
+                    Upload your pictures, videos or even both!
+                </p>
+            </div>
+            
         </section>
 
-        <section class="ipad">
-            <img src="../src/images/ipad_frame.png" alt="ipad_frame"/>
+        <section class="content">
+            <form class="form__container">
+                <label class="form__container--description" for="description">
+                    <span>Description</span>
+                    <textarea id="description" placeholder="Fill in here" required></textarea>
+                </label>
+                <label class="form__container--fill" for="tags">
+                    <span>Tagged Words</span>
+                    <input type="text" id="tags" placeholder="Ex: Architecture, Food, Arts and Culture" required></input>
+                </label>
+                <label class="form__container--fill" for="name">
+                    <span>Name</span>
+                    <input type="text" id="fill" placeholder="Fill in here" required></input>
+                </label>
+                <label class="form__container--fill" for="email">
+                    <span>Email</span>
+                    <input type="email" id="email" placeholder="Fill in here" required></input>
+                </label>
+                <label class="form__container--file" for="file">
+                    <span>Upload your file here</span>
+                    <div class="form__container--file__cover">
+                        <input type="file" id="file" placeholder="Fill in here" required></input>
+                    </div>
+                </label>
+            </form>
         </section>
 
         <section class="links">

@@ -154,6 +154,45 @@ main {
   z-index: 100;
 }
 
+.intro {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro__head {
+  height: fit-content;
+  margin-top: 44px;
+  margin-bottom: 42px;
+  position: relative;
+}
+.intro__head--info {
+  position: absolute;
+  bottom: 34px;
+  left: 470px;
+}
+.intro__text {
+  width: 1077px;
+  height: fit-content;
+  font-family: "Eina03", sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 32.77px;
+  color: #000000;
+  text-align: center;
+}
+
+.ipad {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 .links {
   width: 100vw;
   height: fit-content;
