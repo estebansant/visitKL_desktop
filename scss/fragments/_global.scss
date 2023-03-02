@@ -3,6 +3,7 @@ $biru: #1D3B83;
 $kuning: #FFFB05;
 $gradient-tulisan: linear-gradient(180deg, rgba(24, 24, 24, 0) 0%, #181818 100%);
 $pure-white: #FFFFFF;
+$pure-black: #000000;
 $cherry-red: #E51C21;
 $mere-black: #252525;
 $blue-visitKL: #005BAA;
@@ -83,7 +84,7 @@ html{
 body{
     width: 100%;
     overflow-x: hidden;
-    background: #E5E5E5;
+    background: #F4F4F4;
     background-attachment: fixed;
 }
 ::-webkit-scrollbar{
