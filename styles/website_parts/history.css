@@ -147,7 +147,7 @@ main {
   min-width: 320px;
 }
 
-.faq {
+.home {
   border-bottom: 5px solid #E51C21;
   padding-bottom: 17.7px;
   border-radius: 1px;
@@ -165,107 +165,118 @@ main {
 .intro__head {
   height: fit-content;
   margin-top: 44px;
+  margin-bottom: 42px;
   position: relative;
-}
-.intro__head--info {
-  position: absolute;
-  bottom: 34px;
-  left: 470px;
-}
-.intro__text {
-  width: 1077px;
-  height: fit-content;
-  font-family: "Eina03", sans-serif;
-  font-weight: normal;
-  font-size: 1.4rem;
-  line-height: 16px;
-  color: #000000;
-  text-align: center;
-}
-.intro__search {
-  width: 420px;
-  height: 35px;
-  border-radius: 6px;
-  opacity: 80%;
-  margin-top: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.intro__search--input {
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  border: none;
-  text-align: center;
-  background-color: #E7E7E7;
-}
-.intro__search--image {
-  position: absolute;
-  right: 75px;
-  top: calc(50% - 7.1px);
 }
 
-.faqs {
+.images {
   width: 100vw;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 46px;
 }
-.faqs__question {
-  width: 994px;
-  height: 63px;
-  background: #005BAA;
+.images__main {
+  margin-bottom: 32px;
+}
+.images__carousel {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid linear-gradient(180deg, #005BAA 0%, #8EC1EE 100%);
-  box-shadow: 0px 4.01667px 4.01667px rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
-  text-align: center;
+  gap: 10px;
+}
+.images__carousel--arrowLeft {
+  margin-right: 15px;
+}
+.images__carousel--pic {
+  background: url("../../src/images/medan_border.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
+  width: 185px;
+  height: 148px;
 }
-.faqs__question p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 26px;
-  color: #FFFFFF;
-  text-shadow: 0px 4.01667px 4.01667px rgba(0, 0, 0, 0.5);
+.images__carousel--pic img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+}
+.images__carousel--arrowRight {
+  margin-left: 15px;
+}
+.images__title {
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 40px;
+  color: #252525;
   text-align: center;
 }
-.faqs__question img {
-  position: absolute;
-  right: 55px;
-}
-.faqs__answer {
-  width: 994px;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid linear-gradient(180deg, #005BAA 0%, #8EC1EE 100%);
-  border-radius: 8px;
-  box-shadow: 0px 4.01667px 4.01667px rgba(0, 0, 0, 0.5);
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.faqs__answer p {
-  width: 958px;
-  font-family: "Poppins", sans-serif;
+.images__text {
+  margin-top: 5px;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
+  line-height: 25px;
   color: #252525;
-  text-align: justify;
-  padding: 15px;
+  text-align: center;
 }
 
-.faqs__question:hover {
+.info {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+}
+.info__text {
+  width: 1077px;
+  font-family: "Eina03", sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+.info__links {
+  width: 100vw;
+  margin-top: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.info__links--button {
+  width: 230px;
+  height: 33px;
+  background: #E51C21;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Eina01", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.info__links--button:hover {
   cursor: pointer;
+  background: #1D3B83;
 }
 
 .links {
@@ -362,4 +373,4 @@ main {
   text-align: right;
 }
 
-/*# sourceMappingURL=faq.css.map */
+/*# sourceMappingURL=history.css.map */
