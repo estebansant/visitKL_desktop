@@ -35,7 +35,166 @@
         </nav>
     </header>
     <main>
-        
+        <form class="intro">
+            <div class="intro__buttons">
+                <input type="submit" value="Submit" class="intro__buttons--submit"/>
+                <img class="intro__buttons--reload" src="../src/icons/reload_cherry_good-form.png" alt="reload" />
+            </div>
+            <div class="intro__head--partition">
+                <div class="intro__head">
+                    <img class="intro__head--title" src="../src/logos/e-form_title.png" alt="e-form title"/>
+                    <div class="intro__head--subtitle">
+                        <h3>Welcome to e-Form!</h3>
+                        <img src="../src/icons/hand.svg" alt="waving hand" />
+                    </div>
+                    <p class="intro__head--text">
+                        Promote your events here for FREE.<br/>
+                        Millions of tourists and KL Lites want to know about your event.
+                    </p>
+                </div>
+
+                <div class="intro__form">
+                    <label class="form__container--fill" for="event">
+                        <span>Event or Promotion Name</span>
+                        <input type="text" id="event" placeholder="Fun Run With KL" required></input>
+                    </label>
+                    <div class="intro__form--mid">
+                        <label class="form__container--fill" for="date-start">
+                            <span>Start Date</span>
+                            <input type="date" id="date-start" placeholder="25 June 2022" required></input>
+                        </label>
+                        <label class="form__container--fill" for="time-start">
+                            <span>Start Time</span>
+                            <input type="time" id="time-start" placeholder="10 am" required></input>
+                        </label>
+                    </div>
+                    <label class="form__container--fill" for="venue">
+                        <span>Venue</span>
+                        <input type="text" id="venue" placeholder="Dataran Merdeka, Kuala Lumpur" required></input>
+                    </label>
+                    <div class="intro__form--mid">
+                        <label class="form__container--fill" for="date-end">
+                            <span>End Date</span>
+                            <input type="date" id="date-end" placeholder="25 July 2022" required></input>
+                        </label>
+                        <label class="form__container--fill" for="time-end">
+                            <span>End Time</span>
+                            <input type="time" id="time-end" placeholder="10 pm" required></input>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+
+            <section class="form__container">
+                    <label class="form__container--description" for="description">
+                        <span>Event / Promotion Description</span>
+                        <textarea id="description" placeholder="A 5km Marathon event." required></textarea>
+                    </label>
+
+                    <div class="form__container--grid">
+                        <div class="form__container--grid__division">
+                            <label class="form__container--fill" for="event-list">
+                                <span>Type of Event</span>
+                                <select class="form__container--fill__select" name="event-list" id="event-list" required>
+                                    <option class="form__container--fill__option" value="" disabled selected>Choose one</option>
+                                    <option class="form__container--fill__option" value="travel">Travel</option>
+                                    <option class="form__container--fill__option" value="accomodations">Accomodations</option>
+                                    <option class="form__container--fill__option" value="food_&_entertainment">Food & Entertainment</option>
+                                    <option class="form__container--fill__option" value="arts_&_culture">Arts & Culture</option>
+                                    <option class="form__container--fill__option" value="places_to_go">Places To Go</option>
+                                    <option class="form__container--fill__option" value="health_&_wellness">Health & Wellness</option>
+                                    <option class="form__container--fill__option" value="mice">MICE</option>
+                                    <option class="form__container--fill__option" value="shopping">Shopping</option>
+                                    <option class="form__container--fill__option" value="sports">Sports</option>
+                                    <option class="form__container--fill__option" value="education">Education</option>
+                                  </select>
+                            </label>
+                            <label class="form__container--fill" for="link">
+                                <span>Link</span>
+                                <input type="url" id="link" placeholder="Fill in here" required></input>
+                            </label>
+                            <label class="form__container--fill" for="tel">
+                                <span>Contact No.</span>
+                                <input type="tel" id="tel" placeholder="Fill in here" required></input>
+                            </label>
+                            <label class="form__container--fill" for="email">
+                                <span>Email</span>
+                                <input type="email" id="tel" placeholder="Fill in here" required></input>
+                            </label>
+                        </div>
+
+                        <div class="form__container--grid__division">
+                            <label class="form__container--fill" for="company">
+                                <span>Company Name</span>
+                                <input type="text" id="company" placeholder="Fill in here" required></input>
+                            </label>
+                            <label class="form__container--fill" for="fax">
+                                <span>Fax</span>
+                                <input type="text" id="fax" placeholder="Fill in here" required></input>
+                            </label>
+
+                            <div class="form__container--buttons__division">
+                                <label class="form__container--buttons__division--label">
+                                    <span>Upload Banners</span>
+                                    <input type="file" id="banners" required/>
+                                </label>
+                                <label class="form__container--buttons__division--label">
+                                    <span>Upload Approved DBKL License</span>
+                                    <input type="file" id="banners" required/>
+                                </label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+            </section>
+        </form>
+
+        <section class="links">
+            <div class="links__title">
+                <h2 class="links__title--text">Quick Links</h2>
+                <hr class="links__title--line"/>
+            </div>
+            <div class="links__container">
+                <a class="links__container--item" href="https://www.kwp.gov.my/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_1.png" alt="kwp"/>
+                </a>
+                <a class="links__container--item" href="https://www.motac.gov.my/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_2.png" alt="motac"/>
+                </a>
+                <a class="links__container--item" href="https://www.dbkl.gov.my/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_3.png" alt="dbkl"/>
+                </a>
+                <a class="links__container--item" href="https://www.malaysia.travel/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_4.png" alt="tourism malaysia"/>
+                </a>
+                <a class="links__container--item" href="https://www.matic.gov.my/en/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_5.png" alt="malaysia turism center"/>
+                </a>
+                <a class="links__container--item" href="https://www.mm2h.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_6.png" alt="malaysia my second home"/>
+                </a>
+                <a class="links__container--item" href="https://asean.org/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_7.png" alt="southeast asia"/>
+                </a>
+                <a class="links__container--item" href="https://www.matrade.gov.my/en/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_8.png" alt="matrade"/>
+                </a>
+                <a class="links__container--item" href="https://www.malaysiaairports.com.my/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_9.png" alt="malaysia airports"/>
+                </a>
+                <a class="links__container--item" href="https://www.malaysiaairports.com.my/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_10.png" alt="klia next gen hub"/>
+                </a>
+                <a class="links__container--item" href="https://www.matta.org.my/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_11.png" alt="matta"/>
+                </a>
+                <a class="links__container--item" href="https://www.artgallery.gov.my/en/homepage/" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/logos/link_12.png" alt="balai seni lukis negara"/>
+                </a>
+            </div>
+        </section>
     </main>
     <footer id="footer" class="footer">
         <div class="footer__containerLeft">

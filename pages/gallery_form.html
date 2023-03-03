@@ -35,9 +35,9 @@
         </nav>
     </header>
     <main>
-        <section class="intro">
+        <form class="intro">
             <div class="intro__buttons">
-                <button class="intro__buttons--submit">Submit</button>
+                <input type="submit" value="Submit" class="intro__buttons--submit"/>
                 <img class="intro__buttons--reload" src="../src/icons/reload_cherry-form.svg" alt="reload" />
             </div>
             <div class="intro__head">
@@ -50,35 +50,32 @@
                     Upload your pictures, videos or even both!
                 </p>
             </div>
-            
-        </section>
 
-        <section class="content">
-            <form class="form__container">
-                <label class="form__container--description" for="description">
-                    <span>Description</span>
-                    <textarea id="description" placeholder="Fill in here" required></textarea>
-                </label>
-                <label class="form__container--fill" for="tags">
-                    <span>Tagged Words</span>
-                    <input type="text" id="tags" placeholder="Ex: Architecture, Food, Arts and Culture" required></input>
-                </label>
-                <label class="form__container--fill" for="name">
-                    <span>Name</span>
-                    <input type="text" id="fill" placeholder="Fill in here" required></input>
-                </label>
-                <label class="form__container--fill" for="email">
-                    <span>Email</span>
-                    <input type="email" id="email" placeholder="Fill in here" required></input>
-                </label>
-                <label class="form__container--file" for="file">
-                    <span>Upload your file here</span>
-                    <div class="form__container--file__cover">
-                        <input type="file" id="file" placeholder="Fill in here" required></input>
-                    </div>
-                </label>
-            </form>
-        </section>
+            <section class="form__container">
+                    <label class="form__container--description" for="description">
+                        <span>Description</span>
+                        <textarea id="description" placeholder="Fill in here" required></textarea>
+                    </label>
+                    <label class="form__container--fill" for="tags">
+                        <span>Tagged Words</span>
+                        <input type="text" id="tags" placeholder="Ex: Architecture, Food, Arts and Culture" required></input>
+                    </label>
+                    <label class="form__container--fill" for="name">
+                        <span>Name</span>
+                        <input type="text" id="fill" placeholder="Fill in here" required></input>
+                    </label>
+                    <label class="form__container--fill" for="email">
+                        <span>Email</span>
+                        <input type="email" id="email" placeholder="Fill in here" required></input>
+                    </label>
+                    <label class="form__container--file" for="file">
+                        <span>Upload your file here</span>
+                        <div class="form__container--file__cover">
+                            <input type="file" id="file" placeholder="Fill in here" required></input>
+                        </div>
+                    </label>
+            </section>
+        </form>
 
         <section class="links">
             <div class="links__title">
