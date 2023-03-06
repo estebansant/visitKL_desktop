@@ -127,14 +127,18 @@ main{
             align-items: center;
             justify-content: center;
             position: relative;
+            transition: all 0.25s ease-in-out;
             img{
                 height: 100%;
                 width: 100%;
+                transition: all 0.25s ease-in-out;
             }
             &__hover{
                 display: none;
+                transition: all 0.25s ease-in-out;
                 p{
                     display: none;
+                    transition: all 0.25s ease-in-out;
                 }
             }
         }

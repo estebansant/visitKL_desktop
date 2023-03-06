@@ -273,16 +273,20 @@ main {
   align-items: center;
   justify-content: center;
   position: relative;
+  transition: all 0.25s ease-in-out;
 }
 .display__grid--item img {
   height: 100%;
   width: 100%;
+  transition: all 0.25s ease-in-out;
 }
 .display__grid--item__hover {
   display: none;
+  transition: all 0.25s ease-in-out;
 }
 .display__grid--item__hover p {
   display: none;
+  transition: all 0.25s ease-in-out;
 }
 
 .display__grid--item:hover img {

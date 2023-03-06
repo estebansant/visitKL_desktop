@@ -348,6 +348,10 @@ main {
   text-decoration: underline;
 }
 
+.display__content--title img:hover {
+  cursor: pointer;
+}
+
 .links {
   width: 100vw;
   height: fit-content;
